@@ -17,3 +17,6 @@ https://viperzin.github.io/challenge-amigo-secreto/
 - `JavaScript`
 - `CSS`
 - `HTML`
+
+
+## <img width="500" height="500" alt="ff043987-239b-4661-bdb1-7f4ca6092c48" src="https://github.com/user-attachments/assets/9210e8b5-0d20-4a9d-be1b-e525ae19a5aa" />
