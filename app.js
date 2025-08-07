@@ -16,3 +16,17 @@ function agregarAmigo() {
 
   console.log(amigos);
 }
+
+// Agregamos una funcion que cuente y muestre los amigos
+
+function mostrarAmigos() {
+    let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = '';
+
+    for (let i = 0; i < amigos.length; i++) {
+        let listado = document.createElement('li');
+        listado.textContent = amigos[i];
+        listaAmigos.appendChild(listado);
+        document.getElementById('amigo').value = "";
+    }
+}
