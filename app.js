@@ -30,3 +30,19 @@ function mostrarAmigos() {
         document.getElementById('amigo').value = "";
     }
 }
+
+// Agregamos la funcion que sortee al amigo  secreto
+
+function sortearAmigos() {
+    let resultado = Math.floor(Math.random() * amigos.length);
+    let amigoSeleccionado = amigos[resultado];
+    document.getElementById('resultado').innerHTML = 'El amigo secreto es ' + amigoSeleccionado;
+    console.log(amigoSeleccionado);
+
+    if (amigos.length === 0) {
+      alert('No hay amigos para seleccionar');
+      return;
+    }
+  }
+
+  console.log(amigos);
